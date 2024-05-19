@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 const HomePage = () => {
   
   const handleClick = () => {
-    window.location.href = '/Login';
+    window.location.href = '/login';
   };
 
   return (
