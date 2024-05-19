@@ -25,7 +25,7 @@ import io from "socket.io-client"
 
 
 
-const socket = io.connect('http://localhost:3500')
+const socket = io.connect('https://dandys-ai-chatbot-backend.onrender.com');
 const App = () => {
     const [userName, setUserName] = useState('');
 
