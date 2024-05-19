@@ -1,0 +1,33 @@
+/* index.css */
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/700.css';
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+background: #FFF0FB;
+}
+
+.clip__top__right {
+  position: absolute;
+  top: 0;
+  right: -0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background: white;
+  clip-path: polygon(100% 0, 69% 21%, 68% 0);
+}
+
+.clip__top__left {
+  position: absolute;
+  top: 0;
+  left: -0.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  background: white;
+  clip-path: polygon(0 0, 29% 0, 28% 16%);
+}
