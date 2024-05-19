@@ -1,11 +1,11 @@
 import React from 'react';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import { Button } from '@mui/material';
-
+import { useNavigate } from'react-router-dom';
 const HomePage = () => {
-  
+  const navigate = useNavigate();
   const handleClick = () => {
-    window.location.href = '/login';
+    navigate('/login');
   };
 
   return (
